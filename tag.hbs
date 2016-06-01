@@ -2,7 +2,12 @@
 <header id="header" class="animated fadeIn"{{#if tag.image}} style="background-image: url({{tag.image}})"{{/if}}>
     <div class="header-background">
     <section class="blog-content">
-        <a id="site-url" class="blog-title" href="{{@blog.url}}">{{@blog.title}}</a>
+
+       
+        <a id="site-url" class="blog-title" href="{{@blog.url}}">
+        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+        {{@blog.title}}
+        </a>
         <span class="blog-description">{{@blog.description}}</span>
         {{> links}}
     </section>

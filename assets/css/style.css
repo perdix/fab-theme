@@ -277,7 +277,7 @@ body {
     height: 100%;
     min-height: 100%;
     background: #f2f2f2;
-    font-family: "Noto Sans", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'ffdinpro', Helvetica, "Helvetica Neue", Arial, sans-serif;
     font-size: 14px;
     font-size: 1.4rem;
     line-height: 1.8;
@@ -427,7 +427,8 @@ body {
 .home-template #header .blog-content .blog-title,
 .archive-template #header .blog-content .blog-title {
     font-family: 'brandongrotesque-bold';
-    font-size: 16px;
+    text-transform:uppercase;
+    font-size: 14px;
     font-size: 1.4rem;
     letter-spacing: 0;
     margin: 0
@@ -463,6 +464,7 @@ body {
 .tag-template #header .blog-content .blog-title,
 .author-template #header .blog-content .blog-title {
     font-family: 'brandongrotesque-bold';
+    text-transform:uppercase;
     font-size: 14px;
     font-size: 1.4rem;
     letter-spacing: 0;
@@ -573,6 +575,7 @@ body {
 }
 #main.archive .post .post-image .post-title {
     font-family: 'brandongrotesque-bold';
+    text-transform:uppercase;
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -597,6 +600,7 @@ body {
 }
 #main.archive .post .post-title {
     font-family: 'brandongrotesque-bold';
+    text-transform:uppercase;
     margin: 0 20px 20px 20px;
     padding-top: 20px;
     font-size: 25px;
@@ -711,6 +715,7 @@ body {
     }
     .single #header .blog-content .blog-title {
         font-family: 'brandongrotesque-bold';
+        text-transform:uppercase;
         font-size: 18px;
         font-size: 1.8rem;
         letter-spacing: 0
@@ -787,8 +792,9 @@ h3,
 h4 {
     margin-top: 30px;
     margin-bottom: 10px;
-    font-family: "Noto Sans", Helvetica, "Helvetica Neue", Arial, sans-serif;
+    /*font-family: "Noto Sans", Helvetica, "Helvetica Neue", Arial, sans-serif;*/
     font-weight: bold;
+    text-transform:uppercase;
     line-height: 1.2
 }
 h1 a,
@@ -800,6 +806,7 @@ h4 a {
 h1,
 .blog-title {
     font-family: 'brandongrotesque-bold';
+    text-transform:uppercase;
     font-size: 35px;
     font-size: 3.5rem;
     letter-spacing: -2px
@@ -1037,6 +1044,7 @@ button:hover {
     h1,
     .blog-title {
         font-family: 'brandongrotesque-bold';
+        text-transform:uppercase;
         font-size: 50px;
         font-size: 5rem
     }
