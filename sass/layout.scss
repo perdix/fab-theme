@@ -266,6 +266,7 @@ body {
                     @include transition(all ease 0.5s);
                 }
                 .post-title {
+                    font-family: 'brandongrotesque-bold';
                     position: absolute;
                     bottom: 0px;
                     left: 0px;
@@ -282,7 +283,8 @@ body {
                     }
                 }               
             }
-            .post-title {            
+            .post-title {  
+                font-family: 'brandongrotesque-bold';          
                 margin: 0 $post-padding $post-padding $post-padding;
                 padding-top: $post-padding;
                 @include font-size(25);

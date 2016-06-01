@@ -7,6 +7,7 @@ Importing compass and reset stylesheets and mixins.
 @import "compass/css3";
 @include global-reset;
 @import "mixins";
+@import "fonts";
 
 /* VARIABLES
 ---------------
