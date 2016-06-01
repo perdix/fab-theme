@@ -1,9 +1,9 @@
 /* Fab them extension */
 
-// @import url("//hello.myfonts.net/count/30d048");
+/* @import url("//hello.myfonts.net/count/30d048"); */
 
 
-// DIN
+/* DIN*/
 @font-face {
   font-family: 'ffdinpro';
   src: url('../fonts/webfonts/30D048_2_0.eot');
@@ -29,7 +29,7 @@
   url('../fonts/webfonts/30D048_1_0.ttf') format('truetype');
 }
 
-// Brandon Grotesque
+/*  Brandon Grotesque */
 @font-face {font-family: 'brandongrotesque-light';
   src: url('../fonts/webfonts/30D048_3_0.eot');
   src: url('../fonts/webfonts/30D048_3_0.eot?#iefix') format('embedded-opentype'),
@@ -385,7 +385,7 @@ body {
 }
 #header .header-content .post-data a,
 #header .header-content .tag-data a {
-    color: #8d8d8d;
+    color: white;
     border: 0
 }
 #header .header-content .post-data a:hover,
