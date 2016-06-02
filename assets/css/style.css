@@ -59,6 +59,9 @@
 .blog-logo {
     border:none;
 }
+#site-url {
+    letter-spacing: 0.13em !important;
+}
   
    
 
@@ -368,7 +371,7 @@ body {
     height: 100%
 }
 #header .header-content {
-    width: 600px;
+    width: 800px;
     margin: auto;
     padding: 60px 20px 20px 20px;
     color: #FFF
@@ -564,7 +567,7 @@ body {
 #main article {
     -webkit-animation-delay: 1.25s;
     animation-delay: 1.25s;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0px auto
 }
 #main article .post-meta h2 {
@@ -724,7 +727,7 @@ body {
     font-size: 1.3rem;
     text-align: center;
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 800px;
     position: relative
 }
 #main .pagination .newer-posts {
@@ -746,7 +749,7 @@ body {
 }
 #footer .colophon {
     padding: 50px 20px;
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 #footer .colophon section {
@@ -770,7 +773,7 @@ body {
     background: #1a1919
 }
 #footer .bottom .attribution {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 #footer .bottom .attribution a {
