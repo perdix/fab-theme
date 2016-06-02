@@ -52,19 +52,12 @@
   url('../fonts/webfonts/30D048_4_0.ttf') format('truetype');
 }
 
-.logo {
-    display:block;
-    float:left;
-    font-size:20px;
-    color:$fab-grey-color;
-    letter-spacing:2px;
-    font-family: 'brandongrotesque-light', sans-serif;
-    text-transform: uppercase;
-    padding-left: 10px;
-    padding-top: 6.5px; 
+.blog-logo img {
+    width: 30px;
+    margin: 18px 10px 0 0;
 }
-.logo .mark {
-    color:rgba(204, 153, 153, 1); 
+.blog-logo {
+    border:none;
 }
   
    
