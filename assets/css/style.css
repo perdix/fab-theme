@@ -395,6 +395,8 @@ body {
 }
 #header .header-content .post-data,
 #header .header-content .tag-data {
+    font-family: 'brandongrotesque-light', sans-serif;
+    text-transform: uppercase;
     color: white;
     font-size: 14px;
     font-size: 1.4rem;
