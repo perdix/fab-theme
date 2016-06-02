@@ -11,7 +11,7 @@
         <h1 class="post-title animated fadeInUp">{{{title}}}</h1>
         <span class="post-data"><span class="date animated fadeInUp"><i class="fa fa-clock-o"></i> <time class="timesince date" data-timesince="{{date format='X'}}" datetime="{{date format='YYYY-MM-DDTHH:mm'}}" title="{{date format='DD MMMM YYYY'}}">{{date published_at timeago='true'}}</time></span>
             {{#if tags}}<span class="tags animated fadeInUp"><i class="fa fa-tags"></i> {{tags prefix="" separator=", "}}</span>{{/if}}
-            {{#author}}<span class="author animated fadeInUp"><i class="fa fa-user"></i> <a href="{{url}}">{{name}}</a></span>{{/author}}</span>
+            {{#author}}<span class="author animated fadeInUp" style="display:none;"><i class="fa fa-user"></i> <a href="{{url}}">{{name}}</a></span>{{/author}}</span>
     </section>
     </div>
 </header>
