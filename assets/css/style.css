@@ -756,11 +756,11 @@ body {
     margin-top: 0;
     float:left;
 }
-@media (min-width: 400px) {
+/*@media (min-width: 400px) {
     #footer .colophon section:last-child {
         display: none;
     }
-}
+}*/
 #footer .colophon section:last-child {
     margin-bottom: 0;
     float:right;
