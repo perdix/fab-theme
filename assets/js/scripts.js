@@ -215,13 +215,13 @@
                     // Change nextLink to next page
                     $('#feed').imagesLoaded(function(){
                         this.pageNum++;
-                        // if('nextlLink' in this){
+                        if('nextlLink' in this){
                             this.nextLink = this.nextLink.substring(0, this.nextLink.indexOf('page/'));
                             this.nextLink += 'page/'+(this.pageNum+1);
-                        // } else {
-                        //      // this.nextLink = this.nextLink.substring(0, this.nextLink.indexOf('page/'));
-                        //     this.nextLink += 'page/'+(this.pageNum+1);
-                        // }
+                        } else {
+                             // this.nextLink = this.nextLink.substring(0, this.nextLink.indexOf('page/'));
+                            this.nextLink += 'page/'+(this.pageNum+1);
+                        }
                         // Remove button if last page else move the button to end of #content
                         if(this.pageNum < this.max) {
                             $('#loadmore').insertAfter($('#feed .post:last'));
