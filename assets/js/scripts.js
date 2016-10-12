@@ -218,6 +218,9 @@
                         if('nextlLink' in this){
                             this.nextLink = this.nextLink.substring(0, this.nextLink.indexOf('page/'));
                             this.nextLink += 'page/'+(this.pageNum+1);
+                        } else {
+                             // this.nextLink = this.nextLink.substring(0, this.nextLink.indexOf('page/'));
+                            this.nextLink += 'page/'+(this.pageNum+1);
                         }
                         // Remove button if last page else move the button to end of #content
                         if(this.pageNum < this.max) {
